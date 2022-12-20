@@ -1,0 +1,157 @@
+haskell-unix-compat (0.5.2-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:42:18 +0800
+
+haskell-unix-compat (0.5.2-2) unstable; urgency=medium
+
+  * Sourceful upload for GHC 8.8.
+
+ -- Clint Adams <clint@debian.org>  Thu, 30 Jul 2020 07:35:01 -0400
+
+haskell-unix-compat (0.5.2-1) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Add missing "Upstream-Name" field into "debian/copyright".
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 13:10:34 -0400
+
+haskell-unix-compat (0.5.1-1) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sat, 29 Sep 2018 19:40:05 +0300
+
+haskell-unix-compat (0.5.0.1-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 17:20:46 -0400
+
+haskell-unix-compat (0.4.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sun, 18 Jun 2017 02:24:26 -0400
+
+haskell-unix-compat (0.4.2.0-2) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:36:43 -0400
+
+haskell-unix-compat (0.4.2.0-1) experimental; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+
+  [ Clint Adams ]
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Sat, 08 Oct 2016 00:38:47 -0400
+
+haskell-unix-compat (0.4.1.4-4) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:55:12 -0500
+
+haskell-unix-compat (0.4.1.4-3) experimental; urgency=medium
+
+  * Bump standards-version to 3.9.6
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:28:55 +0200
+
+haskell-unix-compat (0.4.1.4-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:54:31 +0200
+
+haskell-unix-compat (0.4.1.4-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 16 Apr 2015 15:07:53 +0200
+
+haskell-unix-compat (0.4.1.3-1) experimental; urgency=low
+
+  * Fix Vcs-Darcs url: http://darcs.debian.org/ instead of
+    http://darcs.debian.org/darcs/
+  * Adjust watch file to new hackage layout
+  * Depend on haskell-devscripts 0.9, found in experimental
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Dec 2014 17:12:29 +0100
+
+haskell-unix-compat (0.4.0.0-2) unstable; urgency=low
+
+  * Enable compat level 9
+  * Use substvars for Haskell description blurbs
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 May 2013 12:52:20 +0200
+
+haskell-unix-compat (0.4.0.0-1) experimental; urgency=low
+
+  * Depend on haskell-devscripts 0.8.13 to ensure this packages is built
+    against experimental
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 19 Oct 2012 22:26:15 +0200
+
+haskell-unix-compat (0.3.0.1-2) experimental; urgency=low
+
+  * Bump standards version, no change
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 14 Oct 2012 12:02:19 +0200
+
+haskell-unix-compat (0.3.0.1-1) unstable; urgency=low
+
+  * New upstream release compatible with unix provided by GHC 7.4
+  * Update Standards-Version to 3.9.2
+
+ -- Iain Lane <laney@debian.org>  Wed, 08 Feb 2012 00:29:44 +0000
+
+haskell-unix-compat (0.2.1.1-2) unstable; urgency=low
+
+  * Remove doc-base file (Closes: #620778)
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 04 Apr 2011 20:28:00 +0530
+
+haskell-unix-compat (0.2.1.1-1) unstable; urgency=low
+
+  [ Marco Silva ]
+  * Use ghc instead of ghc6
+
+  [ Joachim Breitner ]
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 03 Apr 2011 10:30:34 +0530
+
+haskell-unix-compat (0.1.2.1-1) unstable; urgency=low
+
+  * Initial release. (closes: #584288)
+
+ -- Giovanni Mascellani <gio@debian.org>  Thu, 03 Jun 2010 12:24:02 +0200

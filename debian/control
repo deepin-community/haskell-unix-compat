@@ -1,0 +1,59 @@
+Source: haskell-unix-compat
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>
+Priority: optional
+Section: haskell
+Rules-Requires-Root: no
+Build-Depends:
+ cdbs,
+ debhelper (>= 10),
+ ghc (>= 8),
+ ghc-prof,
+ haskell-devscripts (>= 0.13),
+Build-Depends-Indep: ghc-doc
+Standards-Version: 4.5.0
+Homepage: https://github.com/jacobstanley/unix-compat
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-unix-compat
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-unix-compat]
+
+Package: libghc-unix-compat-dev
+Architecture: any
+Depends: ${haskell:Depends}, ${misc:Depends}, ${shlibs:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Provides: ${haskell:Provides}
+Description: Haskell portable POSIX-compatible layer${haskell:ShortBlurb}
+ This package provides portable Haskell implementations of some POSIX
+ system calls contained in the unix package. This package re-exports the
+ unix package when available. When it isn't available, portable
+ implementations are used.
+ .
+ ${haskell:Blurb}
+
+Package: libghc-unix-compat-prof
+Architecture: any
+Depends: ${haskell:Depends}, ${misc:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Provides: ${haskell:Provides}
+Description: Haskell portable POSIX-compatible layer${haskell:ShortBlurb}
+ This package provides portable Haskell implementations of some POSIX
+ system calls contained in the unix package. This package re-exports the
+ unix package when available. When it isn't available, portable
+ implementations are used.
+ .
+ ${haskell:Blurb}
+
+Package: libghc-unix-compat-doc
+Architecture: all
+Section: doc
+Depends: ${haskell:Depends}, ${misc:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Description: Haskell portable POSIX-compatible layer${haskell:ShortBlurb}
+ This package provides portable Haskell implementations of some POSIX
+ system calls contained in the unix package. This package re-exports the
+ unix package when available. When it isn't available, portable
+ implementations are used.
+ .
+ ${haskell:Blurb}
